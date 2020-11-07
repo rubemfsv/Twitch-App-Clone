@@ -1,10 +1,18 @@
 import React from "react";
-import { View } from "react-native";
 
-// import { Container } from './styles';
+import Header from "../../components/Header";
+
+import { Wrapper, Container, Main } from "./styles";
 
 const Following: React.FC = () => {
-  return <View />;
+  return (
+    <Wrapper>
+      <Container>
+        <Header />
+        <Main />
+      </Container>
+    </Wrapper>
+  );
 };
 
 export default Following;

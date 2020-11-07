@@ -1,10 +1,13 @@
 import React from "react";
-import { View } from "react-native";
 
-// import { Container } from './styles';
+import { Wrapper, Heading } from "./styles";
 
 const ComingSoon: React.FC = () => {
-  return <View />;
+  return (
+    <Wrapper>
+      <Heading>Coming soon...</Heading>
+    </Wrapper>
+  );
 };
 
 export default ComingSoon;
